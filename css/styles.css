@@ -1,0 +1,46 @@
+
+/* Cambridge color scheme */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #A3C1AD; /* Cambridge Blue */
+    color: #002147; /* Dark Blue */
+}
+
+header.hero-section {
+    background-color: #002147;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+nav.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+nav.navbar a {
+    color: #002147;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav.navbar a:hover {
+    color: #A3C1AD;
+}
+
+main section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #002147;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+}
